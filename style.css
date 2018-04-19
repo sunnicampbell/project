@@ -1,13 +1,52 @@
 #main {
     width:1024px; 
     margin: 5%;
-}
+    font-family: sans-serif;
+} 
 header {
-    
+        position:relative;
+        display:block;
+        max-width:100%;
+        height:100%;
+        margin:0 auto;
+        padding:1rem 5rem;
+        background: gray;
+        
+    }
+    header h1 {
+        line-height: 45px;
+        font-size: 2rem;
+        margin: 0;
+        color:#fff;
+    }
+    header h2 {
+        color: lightgrey;
 }
-footer {
-    
+    menu {
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        float:right;
+    }
+    nav {
+    overflow: hidden;
+    background-color: lightsteelblue;
 }
-nav {
-    
+    nav  li {
+        position:relative;
+        display:inline-flex;
+        list-style-type: none;
+        font-family: "Open Sans", "Droid Sans", sans-serif;
+        padding:0 1rem;
+    }
+    nav li a {
+        float: left;
+        display: block;
+        padding: 5px 15px;
+        color: #fff;
+    }
+    nav a:hover {
+        background-color: #ddd;
+        color: black;
 }
+    
